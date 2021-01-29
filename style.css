@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('download.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: inherit;
+    background-repeat: round; 
+}
+
+.container-1 {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#flex-box-result {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
